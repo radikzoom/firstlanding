@@ -1,0 +1,87 @@
+/* open-sans-regular - latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('../fonts/open-sans-v27-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/open-sans-v27-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* open-sans-700 - latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local(''),
+       url('../fonts/open-sans-v27-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/open-sans-v27-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+html{
+  box-sizing: border-box;
+}
+*, *::before, *::after{
+  box-sizing: inherit;
+}
+
+body{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: normal;
+  color: black;
+}
+
+.wrapper{
+  max-width: 943px;
+  margin: 0 auto;
+}
+
+.home{
+  background-color: white;
+  height: 768px
+}
+
+.home__menu{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 33px;
+  margin-bottom: 32px;
+}
+
+.menu__list{
+  display: flex;
+  flex-wrap: wrap;  
+}
+
+.menu__item{
+  margin-left: 149px;
+}
+
+.menu__item:first-child{
+  margin-left: 0px;
+}
+
+.menu__link{
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #828282;
+  text-decoration: none;  
+}
+
+.menu__link:hover, .menu__link:focus, .menu__link:active{
+  color: black;
+}
+
+.name{
+  width: 123px;
+  height: 118px;
+  margin-left: 0px;
+  font-size: 47.3392px;
+  line-height: 59px;
+  padding-top: 40px;
+}
